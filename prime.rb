@@ -5,6 +5,7 @@ def prime?(num) #4
   else num < 2 || num.negative?()
     false
   end
+end
 
   #if new_array.include?("not_prime")
   #  false
