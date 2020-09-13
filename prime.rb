@@ -12,11 +12,11 @@ def prime?(num) #4
     false
   end
 
-  if new_array.include?("not_prime")
-    false
-  else num < 2 || num.negative?()
-    true
-  end
+  #if new_array.include?("not_prime")
+  #  false
+  #else num < 2 || num.negative?()
+  #  true
+  #end
 end
 
 #  if new_array.include?("not_prime")
