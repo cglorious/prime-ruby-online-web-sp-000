@@ -13,6 +13,21 @@ def prime?(num)
   end
 end
 
+def prime?(num)
+  if num < 2 || num.negative?()
+    false
+  else num >= 2
+    array = (2...(num - 1)).to_a
+    array.any? do |i|
+      if num % i == 0
+        false
+      else
+        true
+      end
+    end
+  end
+end
+
   #if new_array.include?("not_prime")
   #  false
   #else num < 2 || num.negative?()
