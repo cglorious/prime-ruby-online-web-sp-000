@@ -1,18 +1,3 @@
-#def prime?(num)
-#  if num < 2 || num.negative?()
-#    false
-#  else num >= 2
-#    array = (2...(num - 1)).to_a #make a range from 2 to the number before num since prime are divisible by 1 or itself
-#    array.any? do |i| #iterate through the array to see if the number divided by element from array have remainder zero
-#      if num % i == 0
-#        false #if num is divisible by any element, then it's not a prime
-#      else
-#        true
-#      end
-#    end
-#  end
-#end
-
 def prime?(num)
   return false if !num.integer?
   return false if num < 2
