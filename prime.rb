@@ -1,13 +1,7 @@
 def prime?(num) #4
   if num >= 2
     array = (2...(num - 1)).to_a #[2,3]
-    new_array = array.any? {|i| num % i != 0} #[false,]
-      #if num % i == 0
-      #  "not_prime"
-      #else
-      #  "prime"
-      #end
-    #end
+    array.any? {|i| num % i != 0} #[false,]
   else num < 2 || num.negative?()
     false
   end
