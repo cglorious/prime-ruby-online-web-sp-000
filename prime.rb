@@ -4,6 +4,7 @@ def prime?(num)
     array.any? do |i|
       if num % i == 0
         false
+      end
   else num < 2 || num.negative?()
     false
   end
