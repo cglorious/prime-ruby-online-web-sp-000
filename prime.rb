@@ -12,7 +12,7 @@ end
   #else num < 2 || num.negative?()
   #  true
   #end
-end
+#end
 
 #  if new_array.include?("not_prime")
 #    false
